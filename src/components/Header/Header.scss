@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 680px;
+        padding-top: 60px;
+    }
+}

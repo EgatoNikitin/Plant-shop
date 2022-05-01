@@ -1,0 +1,22 @@
+$black: #000;
+$green: #b7eaaf;
+
+
+.checkOutWrapper {
+    background: $green;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+        font-family: 'Sf', sans-serif;
+        color: $black;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+    }
+}

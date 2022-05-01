@@ -1,0 +1,39 @@
+$white: #fff;
+$hover: #d2ffcb;
+
+.buttonHeader {
+  display: inline-block;
+
+  text-align: center;
+  cursor: pointer;
+
+  color: $white;
+  font-family: "SF", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  position: relative;
+
+  &::after {
+    content: "";
+    margin-block: -4px;
+    width: 100%;
+    height: 3px;
+    background-color: $hover;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.45s ease;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.iconHeader {
+  cursor: pointer;
+  display: block;
+}

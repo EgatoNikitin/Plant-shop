@@ -1,0 +1,53 @@
+.ServiceContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assests/backgrounds/Bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .ServiceContent {
+        width: 900px;
+        height: 600px;
+        background-image: url(../assests/backgrounds/CardBgc.png);
+        border-radius: 16px;
+        display: flex;
+        .BackgraundColor {
+            border-radius: 16px;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(113.96deg, #213f36 0%, rgba(33, 63, 54, 0.2) 100%);
+        }
+        .ContantContainer {
+            margin-top: 40px;
+            margin-left: 40px;
+            display: flex;
+            width: 500px;
+            height: 356px;
+            flex-direction: column;
+            justify-content: space-between;
+            h1 {
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 100%;
+                text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+                color: rgba(255, 255, 255, 0.856);
+                span {
+                    color: #d2ffcb;
+                }
+            }
+            p {
+                line-height: 100%;
+                font-weight: 400;
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+            button {
+                background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #1a7503 100%);
+                border: 3px solid rgba(103, 167, 26, 0.8);
+                margin-top: 10px;
+            }
+        }
+    }
+}

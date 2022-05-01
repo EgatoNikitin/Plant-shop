@@ -1,0 +1,48 @@
+.LocationSection {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assests/backgrounds/Bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .LocationConatant {
+        width: 600px;
+        height: 550px;
+        background-image: url(../assests/backgrounds/BackgroundLocContant.png);
+        border-radius: 12px;
+        margin-bottom: 40px;
+        img {
+            margin-top: 80px;
+            width: 60px;
+            height: 60px;
+        }
+        .ConatantContainer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                font-weight: 700;
+                font-size: 60px;
+                color: #d2ffcb;
+                margin-top: 24px;
+                margin-bottom: 14px;
+            }
+            p {
+                line-height: 100%;
+                text-align: center;
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 24px;
+                margin-bottom: 40px;
+            }
+            button {
+                background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%);
+                border: 3px solid rgba(84, 136, 20, 0.8);
+            }
+        }
+    }
+}
