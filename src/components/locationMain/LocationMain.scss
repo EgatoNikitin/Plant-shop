@@ -1,4 +1,5 @@
 .LocationSection {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url(../assests/backgrounds/Bottom.png);
@@ -7,7 +8,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .LocationConatant {
+    z-index: 66;
+    .LocationLeaves {
+        width: 100%;
+        height: 100%;
+        background-image: url(../assests/backgrounds/Decoration.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        position: relative;
+    }
+    .LocationContent {
+        position: relative;
+        z-index: 77;
         width: 600px;
         height: 550px;
         background-image: url(../assests/backgrounds/BackgroundLocContant.png);
@@ -21,6 +37,8 @@
         .ConatantContainer {
             width: 100%;
             height: 100%;
+            position: relative;
+            z-index: 88;
             display: flex;
             flex-direction: column;
             align-items: center;
