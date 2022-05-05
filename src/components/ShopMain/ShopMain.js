@@ -2,6 +2,7 @@ import { ButtonLink } from "../buttons/ButtonLink";
 import MainIcon from "../assests/icons/Ellipse4.png";
 import { PlantCard } from '../PlantCard/PlantCard'
 import { BUTTONS, EXAMPLE_CARDS } from "../constants";
+import { Link } from "react-router-dom";
 
 import './ShopMain.scss'
 
@@ -24,13 +25,16 @@ export const ShopMain = () => {
                     </div>
                     <div className="ShopCards">
                         {EXAMPLE_CARDS.map((el, index) => {
-                            return <PlantCard
+                            if(index < 2)
+                            return <Link to={el.path}>
+                            <PlantCard
                                 title={el.title}
                                 count={el.count}
                                 url={el.url}
                                 icon={el.icon}
                                 key={el + index}
                             />
+                            </Link>
                         })}
                     </div>
                 </div>

@@ -45,6 +45,16 @@ a {
             color: $black;
         }
     }
+    &:focus-visible{
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 20px;
+
+        .link {
+            color: $black;
+        }
+    }
 }
 
 .servicesButton {

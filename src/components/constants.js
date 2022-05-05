@@ -14,6 +14,7 @@ export const titles = [
   { name: "Location", path: '/location' },
 ];
 export const plantsIcons = [plant1, plant2, plant3, plant4];
+
 export const BUTTONS = {
   LINK: "LINK",
   SERVICES: "SERVICES",
@@ -25,12 +26,14 @@ export const EXAMPLE_CARDS = [
     count: "21 PLANTS",
     url: exapleCard1,
     icon: plant1,
+    path: '/foliage'
   },
   {
     title: "Pucculent",
     count: "4 plants",
     url: exapleCard2,
     icon: plant2,
+    path: '/foliage'
   },
   {
     title: "Flower",

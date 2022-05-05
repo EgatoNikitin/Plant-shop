@@ -12,7 +12,7 @@ export const ButtonLink = ({ text, url, type }) => {
           </a>
         </button>
       ) : (
-        <button className="servicesButton">{text}</button>
+        <button className="servicesButton" >{text}</button>
       )}
     </>
   );

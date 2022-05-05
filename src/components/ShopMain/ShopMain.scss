@@ -4,12 +4,14 @@
     background-image: url(../assests/backgrounds/Bottom.png);
     background-repeat: no-repeat;
     background-position: bottom;
+
     .ShopContent {
         margin-top: 150px;
         margin-left: 160px;
         display: flex;
         flex-direction: row;
         align-items: center;
+
         .ContantContainer {
             margin-right: 100px;
             display: flex;
@@ -17,49 +19,62 @@
             height: 506px;
             flex-direction: column;
             justify-content: space-between;
+
             h1 {
                 font-weight: 700;
                 font-size: 80px;
                 line-height: 100%;
                 text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
                 color: rgba(255, 255, 255, 0.856);
+
                 span {
                     color: #d2ffcb;
                 }
             }
+
             p {
                 font-weight: 400;
                 font-size: 24px;
                 color: rgba(255, 255, 255, 0.8);
+
                 span {
                     color: #d2ffcb;
                 }
             }
+
             button {
                 margin-top: 15px;
                 margin-bottom: 15px;
                 background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%);
                 border: 3px solid rgba(59, 99, 11, 0.8);
             }
+
             .ShopMiniText {
                 font-weight: 400;
                 font-size: 16px;
                 color: #ffffff;
             }
+
             img {
                 width: 80px;
                 height: 80px;
             }
         }
+
         .ShopCards {
             display: flex;
-            .card {
-                margin-right: 40px;
-                display: none;
-            }
-            .card:nth-child(1),
-            .card:nth-child(2) {
-                display: flex;
+
+            a {
+
+                .card {
+                    margin-right: 40px;
+                    display: none;
+                }
+
+                .card:nth-child(1),
+                .card:nth-child(2) {
+                    display: flex;
+                }
             }
         }
     }
