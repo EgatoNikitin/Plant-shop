@@ -8,10 +8,10 @@ export const LocationMain = () => {
     const buttonText = "Contact Me";
     return (
         <>
-            <div className="LocationSection">
-                <div className="LocationLeaves">
-                    <div className="LocationContent">
-                        <div className="ConatantContainer">
+            <section className="Location">
+                <div className="ContantWrapper">
+                    <div className="Locationlieves">
+                        <div className="ContantContainer">
                             <img src={MainIcon} alt="#" />
                             <h1>Location</h1>
                             <p>No. 100, Ln. 00, Chifeng St., Datong<br /> Dist., Taipei City 103, Taiwan (R.O.C.)
@@ -22,7 +22,7 @@ export const LocationMain = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };

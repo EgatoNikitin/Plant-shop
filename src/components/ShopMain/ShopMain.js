@@ -25,16 +25,16 @@ export const ShopMain = () => {
                     </div>
                     <div className="ShopCards">
                         {EXAMPLE_CARDS.map((el, index) => {
-                            if(index < 2)
-                            return <Link to={el.path}>
-                            <PlantCard
-                                title={el.title}
-                                count={el.count}
-                                url={el.url}
-                                icon={el.icon}
-                                key={el + index}
-                            />
-                            </Link>
+                            if (index < 2)
+                                return <Link to={el.path}>
+                                    <PlantCard
+                                        title={el.title}
+                                        count={el.count}
+                                        url={el.url}
+                                        icon={el.icon}
+                                        key={el + index}
+                                    />
+                                </Link>
                         })}
                     </div>
                 </div>

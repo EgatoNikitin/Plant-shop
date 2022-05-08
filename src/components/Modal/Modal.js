@@ -12,15 +12,15 @@ export const Modal = ({ isOpen }) => {
                 <p>21 PLANTS</p>
             </div>
             <ul>
-                <li><img src={ElipceIcon} /> <span>Calathea Silhouette</span></li>
-                <li><span>Calathea Veitchiana Hook.</span><img src={BascetIcon} /></li>
-                <li><span>Calathea Orbifolia</span> <img src={BascetIcon} /></li>
-                <li><span>Calathea Minature</span> <img src={BascetIcon} /></li>
-                <li><img src={ElipceIcon} /><span>Calathea Lietzei ‘Fusion White’</span></li>
-                <li><span>Monstera Deliciosa</span> <img src={BascetIcon} /></li>
-                <li><span>Anthurium Clarinervium</span> <img src={BascetIcon} /></li>
-                <li><img src={ElipceIcon} /><span>Fancy-leaf Caladium</span> <img src={BascetIcon} /></li>
-                <li><img src={ElipceIcon} /><span>Billbergia Viridis</span><img src={BascetIcon} /></li>
+                <li><img alt="#" src={ElipceIcon} /> Calathea Silhouette</li>
+                <li>Calathea Veitchiana Hook.<img alt="#" src={BascetIcon} className='basket' /></li>
+                <li>Calathea Orbifolia <img alt="#" src={BascetIcon} className='basket' /></li>
+                <li>Calathea Minature <img alt="#" src={BascetIcon} className='basket' /></li>
+                <li><img alt="#" src={ElipceIcon} /> Calathea Lietzei ‘Fusion White’</li>
+                <li>Monstera Deliciosa<img alt="#" src={BascetIcon} className='basket' /></li>
+                <li>Anthurium Clarinervium <img alt="#" src={BascetIcon} className='basket' /></li>
+                <li><img alt="#" src={ElipceIcon} /> Fancy-leaf Caladium </li>
+                <li><img alt="#" src={ElipceIcon} /> Billbergia Viridis</li>
             </ul>
         </div>
     )
