@@ -1,5 +1,5 @@
 import { Header } from "../Header/Header";
-import { BlogMain } from "../BlogMain/BlogMain";
+import { FoliageMain } from "../FoliageMain/FoliageMain";
 
 import "../App.scss";
 import "../assests/fonts/index.scss";
@@ -7,9 +7,9 @@ import "../assests/fonts/index.scss";
 export const Foliage = () => {
     return (
         <>
-            <div className="BlogWrapper">
+            <div className="FoliageWrapper">
                 <Header />
-                <BlogMain />
+                <FoliageMain />
             </div>
         </>
     );

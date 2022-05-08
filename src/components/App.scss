@@ -47,3 +47,7 @@ $white: #fff;
   @extend %wrapper;
   background-image: url(../components/assests/backgrounds/BlogBgc.png);
 }
+.FoliageWrapper {
+  @extend %wrapper;
+  background-image: url("./assests/backgrounds/BackgroundServis.png");
+}

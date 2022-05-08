@@ -1,5 +1,49 @@
-.modalWrapper{
-    width: 350px;
-    height: 350px;
-    background-color: black;
+.modalWrapper {
+    width: 420px;
+    height: 517px;
+    position: absolute;
+    left: 20px;
+    top: 188px;
+    background: rgba(33, 63, 54, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    .modalTitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 247px;
+        height: 57px;
+        margin-top: 40px;
+        margin-left: 40px;
+        h3 {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 100%;
+            color: #ffffff;
+        }
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            color: #d2ffcb;
+        }
+    }
+    ul {
+        padding: 0;
+        li {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            width: 380px;
+            height: 44px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #ffffff;
+            span {
+                border-top: 1px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+    }
 }
