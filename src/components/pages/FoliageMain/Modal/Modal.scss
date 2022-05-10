@@ -57,22 +57,10 @@
             }
             &:nth-child(8) {
                 width: 371px;
-                background-image: url(../assests/backgrounds/Basket.png);
+                background-image: url(../../../../assests/backgrounds/Basket.png);
                 background-repeat: no-repeat;
                 background-position: right;
             }
         }
     }
-}
-.ModalArrow {
-    z-index: 1;
-    background-image: url(../assests/backgrounds/modalarrow.png);
-    background: #c4c4c4;
-    border-radius: 4px;
-    transform: rotate(-45deg);
-    position: absolute;
-    left: 30px;
-    top: 503px;
-    width: 32px;
-    height: 32px;
 }

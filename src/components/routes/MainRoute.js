@@ -3,7 +3,7 @@ import { Main } from "../Main/Main";
 import { Examples } from "../Examples/Examples";
 
 import "../App.scss";
-import "../assests/fonts/index.scss";
+import "../../assests/fonts/index.scss";
 
 export const MainRoute = () => {
   return (

@@ -1,8 +1,8 @@
 import { Header } from "../Header/Header";
-import { ServiceMain } from "../ServiceMain/ServiceMain";
+import { ServiceMain } from "../pages/ServiceMain/ServiceMain";
 
 import "../App.scss";
-import "../assests/fonts/index.scss";
+import "../../assests/fonts/index.scss";
 
 
 export const ServiceRoute = () => {

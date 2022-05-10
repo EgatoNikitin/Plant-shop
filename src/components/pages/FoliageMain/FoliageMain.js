@@ -1,4 +1,4 @@
-import { Modal } from "../Modal/Modal";
+import { Modal } from "./Modal/Modal";
 import { useState } from "react";
 
 import './FoliageMain.scss'
@@ -19,7 +19,7 @@ export const FoliageMain = () => {
                 </div>
                 <div className="ModalContant">
                     <button onClick={handlerModal}>
-                        X
+                        <div><span></span></div>
                     </button>
                     <Modal isOpen={isOpen} />
                 </div>

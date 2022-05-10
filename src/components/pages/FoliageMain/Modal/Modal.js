@@ -1,5 +1,5 @@
-import ElipceIcon from "../assests/backgrounds/O.png";
-import BascetIcon from "../assests/backgrounds/Basket.png";
+import ElipceIcon from "../../../../assests/backgrounds/O.png";
+import BascetIcon from "../../../../assests/backgrounds/Basket.png";
 
 import './Modal.scss'
 

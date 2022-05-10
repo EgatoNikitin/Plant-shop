@@ -1,11 +1,11 @@
-import plant1 from "./assests/icons/001-plant.svg";
-import plant2 from "./assests/icons/002-plant.svg";
-import plant3 from "./assests/icons/003-plant.svg";
-import plant4 from "./assests/icons/004-plant.svg";
-import exapleCard1 from "./assests/backgrounds/exampleCard1.png";
-import exapleCard2 from "./assests/backgrounds/exampleCard2.png";
-import exapleCard3 from "./assests/backgrounds/exampleCard3.png";
-import exapleCard4 from "./assests/backgrounds/exampleCard4.png";
+import plant1 from "../assests/icons/001-plant.svg";
+import plant2 from "../assests/icons/002-plant.svg";
+import plant3 from "../assests/icons/003-plant.svg";
+import plant4 from "../assests/icons/004-plant.svg";
+import exapleCard1 from "../assests/backgrounds/exampleCard1.png";
+import exapleCard2 from "../assests/backgrounds/exampleCard2.png";
+import exapleCard3 from "../assests/backgrounds/exampleCard3.png";
+import exapleCard4 from "../assests/backgrounds/exampleCard4.png";
 
 export const titles = [
   { name: "Service", path: "/service" },

@@ -1,8 +1,8 @@
 import { Header } from "../Header/Header";
-import { FoliageMain } from "../FoliageMain/FoliageMain";
+import { FoliageMain } from "../pages/FoliageMain/FoliageMain";
 
 import "../App.scss";
-import "../assests/fonts/index.scss";
+import "../../assests/fonts/index.scss";
 
 export const Foliage = () => {
     return (

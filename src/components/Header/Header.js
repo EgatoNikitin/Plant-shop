@@ -2,7 +2,7 @@ import { ButtonHeader } from "./ButtonHeader/ButtonHeader";
 import { CheckOut } from "./CheckOut/CheckOut";
 import { titles } from "../constants";
 import "./Header.scss";
-import icon from "../assests/icons/Logo.svg";
+import icon from "../../assests/icons/Logo.svg";
 
 export const Header = () => {
   return (

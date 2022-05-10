@@ -1,7 +1,7 @@
-import { ButtonLink } from "../buttons/ButtonLink";
-import MainIcon from "../assests/icons/Ellipse4.png";
-import { PlantCard } from '../PlantCard/PlantCard'
-import { BUTTONS, EXAMPLE_CARDS } from "../constants";
+import { ButtonLink } from "../../buttons/ButtonLink";
+import MainIcon from "../../../assests/icons/Ellipse4.png";
+import { PlantCard } from '../../PlantCard/PlantCard'
+import { BUTTONS, EXAMPLE_CARDS } from "../../constants";
 import { Link } from "react-router-dom";
 
 import './ShopMain.scss'

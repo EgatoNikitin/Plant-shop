@@ -4,7 +4,7 @@ $white: #fff;
   margin: 0 auto;
   width: 1440px;
   height: 956px;
-  background-image: url("./assests/backgrounds/Background.png");
+  background-image: url("../assests/backgrounds/Background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -18,24 +18,24 @@ $white: #fff;
 
 .servicesWrapper {
   @extend %wrapper;
-  background-image: url("./assests/backgrounds/BackgroundServis.png");
+  background-image: url("../assests/backgrounds/BackgroundServis.png");
 }
 
 .ShopWrapper {
   @extend %wrapper;
-  background-image: url("./assests/backgrounds/BackgroundShop.png");
+  background-image: url("../assests/backgrounds/BackgroundShop.png");
 }
 
 .LocationWrapper {
   @extend %wrapper;
-  background-image: url("./assests/backgrounds/BackgroundLocation.png");
+  background-image: url("../assests/backgrounds/BackgroundLocation.png");
 }
 
 .BlogWrapper {
   @extend %wrapper;
-  background-image: url(../components/assests/backgrounds/BlogBgc.png);
+  background-image: url(../assests/backgrounds/BlogBgc.png);
 }
 .FoliageWrapper {
   @extend %wrapper;
-  background-image: url("./assests/backgrounds/BackgroundServis.png");
+  background-image: url("../assests/backgrounds/BackgroundServis.png");
 }

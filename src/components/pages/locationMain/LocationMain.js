@@ -1,6 +1,6 @@
-import { ButtonLink } from "../buttons/ButtonLink";
-import MainIcon from "../assests/icons/Logo.svg";
-import { BUTTONS } from "../constants";
+import { ButtonLink } from "../../buttons/ButtonLink";
+import MainIcon from "../../../assests/icons/Logo.svg";
+import { BUTTONS } from "../../constants";
 
 import './LocationMain.scss'
 

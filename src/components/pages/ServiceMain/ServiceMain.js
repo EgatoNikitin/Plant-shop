@@ -1,5 +1,5 @@
-import { ButtonLink } from "../buttons/ButtonLink";
-import { BUTTONS } from "../constants";
+import { ButtonLink } from "../../buttons/ButtonLink";
+import { BUTTONS } from "../../constants";
 
 import './ServiseMain.scss'
 

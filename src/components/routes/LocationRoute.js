@@ -1,8 +1,8 @@
 import { Header } from "../Header/Header";
-import { LocationMain } from "../locationMain/LocationMain";
+import { LocationMain } from "../pages/locationMain/LocationMain";
 
 import "../App.scss";
-import "../assests/fonts/index.scss";
+import "../../assests/fonts/index.scss";
 
 export const LocationRoute = () => {
     return (
