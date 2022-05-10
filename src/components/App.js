@@ -4,7 +4,6 @@ import { MainRoute } from "./routes/MainRoute";
 import { ServiceRoute } from "./routes/ServiceRoute";
 import { ShopRoute } from "./routes/ShopRoute";
 import { LocationRoute } from "./routes/LocationRoute";
-import { BlogRoute } from "./routes/BlogRoute";
 import { Foliage } from "./routes/FoliageRoute";
 
 import "./App.scss";
@@ -19,7 +18,7 @@ function App() {
         <Route path="/service" element={<ServiceRoute />} />
         <Route path="/shop" element={<ShopRoute />} />
         <Route path="/location" element={<LocationRoute />} />
-        <Route path="/blog" element={<BlogRoute />} />
+        <Route path="/blog" element={<MainRoute />} />
         <Route path='/foliage' element={<Foliage />} />
       </Routes>
     </>

@@ -6,6 +6,9 @@ import exapleCard1 from "../assests/backgrounds/exampleCard1.png";
 import exapleCard2 from "../assests/backgrounds/exampleCard2.png";
 import exapleCard3 from "../assests/backgrounds/exampleCard3.png";
 import exapleCard4 from "../assests/backgrounds/exampleCard4.png";
+import ElipceIcon from "../assests/backgrounds/O.png";
+import BascetIcon from "../assests/backgrounds/Basket.png";
+
 
 export const titles = [
   { name: "Service", path: "/service" },
@@ -48,3 +51,51 @@ export const EXAMPLE_CARDS = [
     icon: plant4,
   },
 ];
+
+export const foliageItems = [
+  {
+    title: "Calathea Silhouette",
+    icon: ElipceIcon,
+    isLeft: true,
+  },
+  {
+    title: "Calathea Veitchiana Hook.",
+    icon: BascetIcon,
+    isLeft: false,
+  },
+  {
+    title: "Calathea Orbifolia",
+    icon: BascetIcon,
+    isLeft: false,
+  },
+  {
+    title: "Calathea Minature",
+    icon: BascetIcon,
+    isLeft: false,
+  },
+  {
+    title: "Calathea Lietzei ‘Fusion White’",
+    icon: ElipceIcon,
+    isLeft: true
+  },
+  {
+    title: "Monstera Deliciosa",
+    icon: BascetIcon,
+    isLeft: false
+  },
+  {
+    title: "Anthurium Clarinervium",
+    icon: BascetIcon,
+    isLeft: false
+  },
+  {
+    title: "Fancy-leaf Caladium",
+    icon: ElipceIcon,
+    isLeft: true
+  },
+  {
+    title: "Billbergia Viridis",
+    icon: ElipceIcon,
+    isLeft: true
+  }
+]

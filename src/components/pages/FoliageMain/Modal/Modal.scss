@@ -4,10 +4,21 @@
     position: absolute;
     left: 20px;
     top: 188px;
-    background: rgba(33, 63, 54, 0.8);
+    background: rgba(33, 63, 54, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+
+    .arrow-down{
+        width: 0; 
+        height: 0; 
+        margin-top: -17px;
+        margin-left: 20px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        
+        border-top: 20px solid rgba(33, 63, 54, 0.8);
+    }
     .modalTitle {
         display: flex;
         flex-direction: column;
@@ -47,6 +58,11 @@
             img {
                 margin-left: -30px;
                 margin-right: 9px;
+            }
+
+            &:hover{
+                cursor: pointer;
+                color: rgba(255, 255, 255, 0.8);
             }
             &:nth-child(2),
             &:nth-child(3),

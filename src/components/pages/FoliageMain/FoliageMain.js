@@ -1,7 +1,9 @@
 import { Modal } from "./Modal/Modal";
+import { ModalButton } from "../../buttons/ModalButton";
 import { useState } from "react";
 
 import './FoliageMain.scss'
+import { foliageItems } from "../../constants";
 
 export const FoliageMain = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -18,10 +20,8 @@ export const FoliageMain = () => {
                     <p>Add some color to your home, give it a little attention, the plants will accompany you quietly</p>
                 </div>
                 <div className="ModalContant">
-                    <button onClick={handlerModal}>
-                        <div><span></span></div>
-                    </button>
-                    <Modal isOpen={isOpen} />
+                    <ModalButton isOpen={isOpen} onClick={handlerModal} />
+                    <Modal isOpen={isOpen} arrayOfItems={foliageItems}/>
                 </div>
             </div>
         </>
